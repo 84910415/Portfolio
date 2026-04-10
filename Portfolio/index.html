@@ -2,12 +2,88 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Kennedy Christoffels</title>
+    <title>Kennedy Christoffels Portfolio</title>
 </head>
 <body>
 
-<h1>Kennedy Christoffels</h1>
-<p>FInal Project</p>
+<!-- Sticky Social Icons -->
+<div class="social-bar">
+    <a href="#"><img src="icons/instagram.png" alt="Instagram"></a>
+    <a href="#"><img src="icons/linkedin.png" alt="LinkedIn"></a>
+    <a href="#"><img src="icons/facebook.png" alt="Facebook"></a>
+</div>
+
+<!-- NAVBAR -->
+<header class="navbar">
+    <h2 class="logo">Kennedy Christoffels</h2>
+    <nav>
+        <a href="#">About</a>
+        <a href="#">Work</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+<!-- HERO SECTION -->
+<section class="hero">
+    <div class="hero-left">
+        <div class="photo-box">Photo</div>
+    </div>
+
+    <div class="hero-right">
+        <h1>Inside My Design World</h1>
+        <p>Hi, Welcome to my portfolio.</p>
+
+        <div class="hero-buttons">
+            <a class="hero-btn" href="#">Resume</a>
+            <a class="hero-btn" href="#">Recent Work</a>
+            <a class="hero-btn" href="#">Connect</a>
+        </div>
+    </div>
+
+    <!-- Scroll Arrow -->
+    <div class="scroll-arrow" onclick="scrollDown()">&#8595;</div>
+</section>
+
+<!-- PROJECTS SECTION -->
+<section class="projects">
+    <h2>See What I’ve Been Creating</h2>
+
+    <div class="project-grid">
+        <a class="project-box large" href="#">SAC MUSEUM CAMPAIGN</a>
+        <a class="project-box large" href="#">RURAL ROOTS BRAND DESIGN</a>
+
+        <div class="photo-stack">
+            <a class="stack-photo" href="#">photo</a>
+            <a class="stack-photo" href="#">photo</a>
+            <a class="stack-photo" href="#">photo</a>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT SECTION -->
+<section class="contact">
+    <h2>Let’s Connect</h2>
+
+    <form class="contact-form">
+        <input type="text" placeholder="First Name">
+        <input type="text" placeholder="Last Name">
+        <input type="text" placeholder="Phone Number">
+        <input type="email" placeholder="Email Address">
+        <textarea placeholder="Message"></textarea>
+        <button type="submit">Submit</button>
+    </form>
+</section>
+
+<footer>
+    © 2026 Kennedy Christoffels
+</footer>
+
+<script>
+function scrollDown() {
+    window.scrollBy({ top: 600, behavior: "smooth" });
+}
+</script>
+
 
 </body>
 </html>
