@@ -208,6 +208,11 @@ body {
   color: var(--text-dark);
   margin-top: 8px;
 }
+.project-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
 /* ── PHOTO STACK ── */
 .photo-stack {
@@ -258,6 +263,11 @@ body {
   box-shadow: 0 8px 24px rgba(0,0,0,0.22);
   transform: scale(1.06) rotate(0deg) !important;
   outline: 3px solid var(--pink-dark);
+}
+.stack-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 /* ── CONTACT ── */
